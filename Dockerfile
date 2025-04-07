@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY index.html /iit/lab3/web/index.html
+COPY ./index.html /usr/share/nginx/html/index.html
 EXPOSE 80
