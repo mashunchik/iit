@@ -1,3 +1,3 @@
-FROM lab03_1_teamikt
+FROM nginx:latest
 COPY index.html /iit/lab3/web/index.html
 EXPOSE 80
